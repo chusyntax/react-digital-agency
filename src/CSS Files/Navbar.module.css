@@ -1,152 +1,115 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-}
-/* custom scroll bar */
-::-webkit-scrollbar {
-    width: 10px;
-}
-::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-::-webkit-scrollbar-thumb {
-    background: #888;
-}
-::selection{
-  background: rgb(0,123,255,0.3);
-}
-.content{
-  max-width: 1250px;
-  margin: auto;
-  padding: 0 30px;
-}
-.navbar{
-  position: fixed;
-  width: 100%;
-  z-index: 2;
-  padding: 25px 0;
-  transition: all 0.3s ease;
-}
-.navbar.sticky{
-  background: #1b1b1b;
-  padding: 10px 0;
-  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
-}
-.navbar .content{
+} 
+nav{
   display: flex;
+  height: 80px;
+  width: 100%;
+  background: #1b1b1b;
   align-items: center;
   justify-content: space-between;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
 }
-.navbar .logo a{
+nav .logo{
   color: #fff;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 600;
-  text-decoration: none;
 }
-.navbar .menu-list{
-  display: inline-flex;
-}
-.menu-list li{
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
 }
-.menu-list li a{
-  color: #fff;
+nav ul li{
+  margin: 0 5px;
+}
+nav ul li a{
+  color: #f2f2f2;
+  text-decoration: none;
   font-size: 18px;
   font-weight: 500;
-  margin-left: 25px;
-  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
   transition: all 0.3s ease;
 }
-.menu-list li a:hover{
-  color: #007bff;
+nav ul li a.active,
+nav ul li a:hover{
+  color: #111;
+  background: #fff;
 }
-.banner{
-  background: url("banner.jpg") no-repeat;
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-.about{
-  padding: 30px 0;
-}
-.about .title{
-  font-size: 38px;
-  font-weight: 700;
-}
-.about p{
-  padding-top: 20px;
-  text-align: justify;
-}
-.icon{
+nav .menu_btn i{
   color: #fff;
-  font-size: 20px;
+  font-size: 22px;
   cursor: pointer;
   display: none;
 }
-.menu-list .cancel-btn{
-  position: absolute;
-  right: 30px;
-  top: 20px;
+input[type="checkbox"]{
+  display: none;
 }
-@media (max-width: 1230px) {
-  .content{
-    padding: 0 60px;
+@media (max-width: 1000px){
+  nav{
+    padding: 0 40px 0 50px;
   }
 }
-@media (max-width: 1100px) {
-  .content{
-    padding: 0 40px;
-  }
-}
-@media (max-width: 900px) {
-  .content{
-    padding: 0 30px;
-  }
-}
-@media (max-width: 868px) {
-  body.disabled{
-    overflow: hidden;
-  }
-  .icon{
+@media (max-width: 920px) {
+  nav .menu_btn i{
     display: block;
   }
-  .icon.hide{
-    display: none;
+  .click:checked ~ .menu_btn i:before{
+    content: "\f00d";
   }
-  .navbar .menu-list{
+  nav ul{
     position: fixed;
+    top: 80px;
+    left: -100%;
+    background: #111;
     height: 100vh;
     width: 100%;
-    max-width: 400px;
-    left: -100%;
-    top: 0px;
-    display: block;
-    padding: 40px 0;
     text-align: center;
-    background: #222;
+    display: block;
     transition: all 0.3s ease;
   }
-  .navbar.show .menu-list{
-    left: 0%;
+  .click:checked ~ ul{
+    left: 0;
   }
-  .navbar .menu-list li{
-    margin-top: 45px;
+  nav ul li{
+    width: 100%;
+    margin: 40px 0;
   }
-  .navbar .menu-list li a{
-    font-size: 23px;
+  nav ul li a{
+    width: 100%;
     margin-left: -100%;
+    display: block;
+    font-size: 20px;
     transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
-  .navbar.show .menu-list li a{
+  .click:checked ~ ul li a{
     margin-left: 0px;
   }
-}
-@media (max-width: 380px) {
-  .navbar .logo a{
-    font-size: 27px;
+  nav ul li a.active,
+  nav ul li a:hover{
+    background: none;
+    color: cyan;
   }
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: -1;
+  width: 100%;
+  padding: 0 30px;
+  color: #1b1b1b;
+}
+.content div{
+  font-size: 40px;
+  font-weight: 700;
 }
