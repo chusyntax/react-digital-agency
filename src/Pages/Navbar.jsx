@@ -6,11 +6,11 @@ function Navbar(){
  
 return(
 
-<body>
+
 
 <nav>
          <div className={styles.logo}>
-            Brand
+            Kreative Korner.
          </div>
          <input type="checkbox" id="click" className={styles.click}/>
          <label for="click" className={styles.menu_btn}>
@@ -25,16 +25,9 @@ return(
          </ul>
       </nav>
 
-      <div className={styles.content}>
-         <div>
-            Responsive Navigation Menu Bar Design
-         </div>
-         <div>
-            using only HTML & CSS
-         </div>
-      </div>
+     
 
-</body>    
+   
 
 
 );

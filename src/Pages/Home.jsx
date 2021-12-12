@@ -1,12 +1,19 @@
+import styles from "../CSS Files/Home.module.css"
+
 function Home() {
     return (
  
   
- <div>
+ <section className={styles.hero}>
 
-<h1>Hello World</h1>
+<div className={styles.overlay}>
 
- </div>
+<h1>Kreative Korner</h1>
+<h3>From Here To Everywhere</h3>
+
+</div>
+
+ </section>
 
  
   
