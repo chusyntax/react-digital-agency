@@ -8,8 +8,8 @@ function Home() {
 
 <div className={styles.overlay}>
 
-<h1>Kreative Korner</h1>
-<h3>From Here To Everywhere</h3>
+<h1>Kreative Korner.</h1>
+<h3>From Here To Everywhere.</h3>
 
 </div>
 

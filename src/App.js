@@ -1,6 +1,6 @@
 import Home from './Pages/Home.jsx';
 import Navbar from './Pages/Navbar.jsx';
-
+import About from './Pages/About.jsx'
 
 function App() {
     return (
@@ -10,6 +10,7 @@ function App() {
    
 <Navbar/>
 <Home />
+<About/>
 
 
 </main>
