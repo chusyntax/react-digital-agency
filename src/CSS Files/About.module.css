@@ -1,4 +1,87 @@
 .about{
 display:grid;
-background:grey;
+background:rgb(245, 242, 242);
+grid-template-columns:1fr  1fr ;
+gap:0.2rem;
+max-width:100%;
+}
+
+.about div{
+    margin:50px
+}
+
+.about h1{
+    font-size: 5.5rem;
+}
+.about p{
+    font-size: 1.25rem;
+}
+.aboutImage{
+    position: relative;
+}
+
+.about img{
+    position:absolute;
+    top:5rem;
+    right:7rem;
+    width:32vw;
+    height:90vh;
+    align-items: center;
+}
+
+.solidBlock{
+    width:32vw;
+    height:90vh;
+    background-color:rgb(255, 255, 255);
+}
+
+.aboutText{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aboutText button{
+    color:white;
+    background:black;
+    border:none;
+    margin:25px;
+    font-size: 1.2rem;
+    padding:15px;
+    border-radius: 1px;
+    transition: 200ms ease-in;
+}
+
+.aboutText button:hover{
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 6px;
+    background:white;
+    color:black;
+    cursor:pointer;
+}
+
+@media screen and (max-width:800px) {
+    .about p{
+        font-size: 1.5rem;
+    }
+    .about{
+        display:grid;
+        grid-template-columns: 1fr;;
+    }
+
+}
+
+@media screen and (min-width:1700px) {
+    .about p{
+        font-size: 2.5rem;
+    }
+
+    .about img{
+        position:absolute;
+        top:7rem;
+        right:15rem;
+    }
 }
