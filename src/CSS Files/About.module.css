@@ -72,6 +72,13 @@ max-width:100%;
         grid-template-columns: 1fr;;
     }
 
+    .solidBlock{
+        display:none;
+    }
+
+    .about img{
+        display:none;
+    }
 }
 
 @media screen and (min-width:1700px) {
@@ -84,4 +91,6 @@ max-width:100%;
         top:7rem;
         right:15rem;
     }
+
+    
 }
