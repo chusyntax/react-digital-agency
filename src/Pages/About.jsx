@@ -6,7 +6,7 @@ function About(){
 
 return(
 
-<section>
+<section id="about">
 
 <div className={styles.about}>
 
