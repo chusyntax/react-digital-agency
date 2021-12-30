@@ -22,6 +22,7 @@ function Services(){
     <h2>Web Development</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ad laborum quaerat illum accusamus, exercitationem animi maiores voluptate dolorem magnam.</p>
     <button>More Info</button>
+    
 </div>
 
 <div  className={styles.servicesCard}>

@@ -1,0 +1,89 @@
+.gallery{
+    max-width: 100%;
+    margin:2em;
+}
+
+.gallery h1{
+    font-size: 5.5rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+}
+
+.container {  
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 1em;
+    grid-auto-flow: column;
+    grid-template-areas:
+      "coke coke toblerone toblerone"
+      "coke coke timberland hitachi"
+      "beer amazon amazon volkano"
+      "beer spotify tesla tesla";
+     
+      color:black;
+  }
+
+  .container p{
+      margin:5rem;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      justify-items: center;
+      text-align: center;
+      align-items: center;
+
+
+  }
+
+  .container :hover{
+      opacity: 1;
+  }
+  
+  .coke { grid-area: coke;
+background: url(../Images/coca\ cola.jpg)no-repeat;
+object-fit: cover;
+background-size: contain;
+
+
+}
+  
+  .toblerone { grid-area: toblerone;
+    background: url(../Images/toblerone.png) no-repeat center center;
+object-fit:cover;
+background-size: cover;
+}
+  
+  .beer { grid-area: beer; 
+    background: black
+}
+  
+  .timberland { grid-area: timberland;
+
+    background: url(../Images/timberland.png) no-repeat center center;
+    object-fit:cover;
+    background-size: contain;
+
+}
+  
+  .amazon { grid-area: amazon; }
+  
+  .tesla { grid-area: tesla; }
+  
+  .spotify { grid-area: spotify;
+
+    background: url(../Images/spotify.png) no-repeat center center;
+    object-fit:cover;
+    background-size: contain;
+
+}
+  
+  .hitachi { grid-area: hitachi; }
+  
+  .volkano { grid-area: volkano; }
+  
