@@ -15,42 +15,42 @@ const Gallery = () => {
   </div>
   <div className={styles.toblerone}>
 
-  
+  <p>Coke</p>
 
   </div>
   <div className={styles.beer}>
 
-  
+  <p>Coke</p>
 
   </div>
   <div className={styles.timberland}>
 
-  
+  <p>Coke</p>
 
   </div>
   <div className={styles.amazon}>
 
-  
+  <p>Coke</p>
 
   </div>
   <div className={styles.tesla}>
 
-  
+  <p>Coke</p>
 
   </div>
   <div className={styles.spotify}>
 
-  
+  <p>Coke</p>
 
   </div>
   <div className={styles.hitachi}>
 
-  
+  <p>Coke</p>
 
   </div>
   <div className={styles.volkano}>
 
-  
+  <p>Coke</p>
 
   </div>
       </div>
