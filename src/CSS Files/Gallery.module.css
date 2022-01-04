@@ -23,7 +23,7 @@
     grid-template-areas:
       "coke coke toblerone toblerone"
       "coke coke timberland hitachi"
-      "beer amazon amazon volkano"
+      "beer amazon amazon dove"
       "beer spotify tesla tesla";
      
       color:black;
@@ -46,7 +46,7 @@
   }
   
   .coke { grid-area: coke;
-background: url(../Images/coca\ cola.jpg)no-repeat;
+background: url(../Images/coke.png)no-repeat;
 object-fit: cover;
 background-size: contain;
 
@@ -60,7 +60,9 @@ background-size: cover;
 }
   
   .beer { grid-area: beer; 
-    background: black
+    background: url(../Images/beer.png) no-repeat center center;
+    object-fit:cover;
+    background-size: contain;
 }
   
   .timberland { grid-area: timberland;
@@ -71,9 +73,19 @@ background-size: cover;
 
 }
   
-  .amazon { grid-area: amazon; }
+  .amazon { grid-area: amazon; 
   
-  .tesla { grid-area: tesla; }
+    background: url(../Images/amazon.png) no-repeat center center;
+    object-fit:cover;
+    background-size: contain;
+  }
+  
+  .tesla { grid-area: tesla;
+  
+    background: url(../Images/tesla.png) no-repeat center center;
+    object-fit:cover;
+    background-size: contain;
+  }
   
   .spotify { grid-area: spotify;
 
@@ -83,7 +95,17 @@ background-size: cover;
 
 }
   
-  .hitachi { grid-area: hitachi; }
+  .hitachi { grid-area: hitachi; 
+    background: url(../Images/hitachi.png) no-repeat center center;
+    object-fit:cover;
+    background-size: contain;
+
+  }
   
-  .volkano { grid-area: volkano; }
+  .dove { grid-area: dove; 
+  
+    background: url(../Images/dove.png) no-repeat center center;
+    object-fit:cover;
+    background-size: contain;
+  }
   

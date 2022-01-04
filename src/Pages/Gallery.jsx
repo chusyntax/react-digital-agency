@@ -48,7 +48,7 @@ const Gallery = () => {
   <p>Coke</p>
 
   </div>
-  <div className={styles.volkano}>
+  <div className={styles.dove}>
 
   <p>Coke</p>
 
