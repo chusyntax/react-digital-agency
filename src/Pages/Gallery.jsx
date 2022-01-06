@@ -9,10 +9,18 @@ const Gallery = () => {
 
             <div className={styles.container}>
             
+  
+    
   <div className={styles.coke}>
-<p>Coke</p>
+    <div className={styles.overlay}>
+
+    <p>Coke</p>
+    </div>
 
   </div>
+    
+              
+
   <div className={styles.toblerone}>
 
   <p>Coke</p>
