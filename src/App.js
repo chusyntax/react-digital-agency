@@ -4,6 +4,7 @@ import Navbar from './Pages/Navbar.jsx';
 import About from './Pages/About.jsx'
 import Services from './Pages/Services';
 import Gallery from './Pages/Gallery';
+import Testimonials from './Pages/Testimonials';
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
 <About/>
 <Services/>
 <Gallery/>
+<Testimonials/>
 
 
 </main>
