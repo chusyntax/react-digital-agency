@@ -26,6 +26,19 @@ export default class Testimonials extends Component {
           </div>
         </div>
 
+
+        <div>
+          <img src="/images/shirley.png" alt="person"/>
+          <div className={styles.myCarousel}>
+            <h3>Shirley Fultz</h3>
+            <h4>Designer</h4>
+            <p>
+              It's freeing to be able to catch up on customized news and not be
+              distracted by a social media element on the same site
+            </p>
+          </div>
+        </div>
+
         <div>
           <img src="/images/daniel.png" alt="person"/>
           <div className={styles.myCarousel}>
