@@ -6,7 +6,13 @@ import styles from "../CSS Files/Testimonials.module.css";
 export default class Testimonials extends Component {
   render() {
     return (
-      <Carousel
+
+      <section className={styles.containerCarousel}>
+
+        <h1>Testimonials</h1>
+
+<Carousel
+
         showArrows={true}
         infiniteLoop={true}
         showThumbs={false}
@@ -63,6 +69,10 @@ export default class Testimonials extends Component {
           </div>
         </div>
       </Carousel>
+
+      </section>
+
+     
     );
   }
 }
