@@ -10,6 +10,7 @@ const Gallery = () => {
             <div className={styles.container}>
             
   
+  
     
   <div className={styles.coke}>
     <div className={styles.overlay}>
