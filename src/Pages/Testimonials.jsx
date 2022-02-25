@@ -7,7 +7,7 @@ export default class Testimonials extends Component {
   render() {
     return (
 
-      <section className={styles.containerCarousel}>
+      <section className={styles.containerCarousel} id="feedback">
 
 
         <h1>Testimonials</h1>

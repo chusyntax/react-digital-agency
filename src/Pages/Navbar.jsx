@@ -21,7 +21,7 @@ return(
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#w">Feedback</a></li>
+            <li><a href="#feedback">Feedback</a></li>
          </ul>
       </nav>
 
