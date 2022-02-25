@@ -9,66 +9,72 @@ export default class Testimonials extends Component {
 
       <section className={styles.containerCarousel}>
 
+
         <h1>Testimonials</h1>
 
-<Carousel
+        <h3>Have a look at a few of out happy customers</h3>
 
-        showArrows={true}
-        infiniteLoop={true}
-        showThumbs={false}
-        showStatus={false}
-        autoPlay={true}
-        interval={6100}
-      >
-        <div>
-          <img src="/images/shirley.png" alt="person"/>
-          <div className={styles.myCarousel}>
-            <h3>Shirley Fultz</h3>
-            <h4>Designer</h4>
-            <p>
-              It's freeing to be able to catch up on customized news and not be
-              distracted by a social media element on the same site
-            </p>
-          </div>
-        </div>
+        <Carousel
+
+showArrows={true}
+infiniteLoop={true}
+showThumbs={false}
+showStatus={false}
+autoPlay={true}
+interval={5100}
+>
 
 
-        <div>
-          <img src="/images/shirley.png" alt="person"/>
-          <div className={styles.myCarousel}>
-            <h3>Shirley Fultz</h3>
-            <h4>Designer</h4>
-            <p>
-              It's freeing to be able to catch up on customized news and not be
-              distracted by a social media element on the same site
-            </p>
-          </div>
-        </div>
 
-        <div>
-          <img src="/images/daniel.png" alt="person"/>
-          <div className={styles.myCarousel}>
-            <h3>Daniel Keystone</h3>
-            <h4>Designer</h4>
-            <p>
-              The simple and intuitive design makes it easy for me use. I highly
-              recommend Fetch to my peers.
-            </p>
-          </div>
-        </div>
+<div>
+  <img src="/images/shirley.png" alt="person"/>
+  <div className={styles.myCarousel}>
+    <h3>Shirley Fultz</h3>
+    <h4>Designer</h4>
+    <p>
+      It's freeing to be able to catch up on customized news and not be
+      distracted by a social media element on the same site
+    </p>
+  </div>
+</div>
 
-        <div>
-          <img src="/images/theo.png" alt="person"/>
-        <div className={styles.myCarousel}>
-            <h3>Theo Sorel</h3>
-            <h4>Designer</h4>
-            <p>
-              I enjoy catching up with Fetch on my laptop, or on my phone when
-              I'm on the go!
-            </p>
-          </div>
-        </div>
-      </Carousel>
+<div>
+  <img src="/images/daniel.png" alt="person"/>
+  <div className={styles.myCarousel}>
+    <h3>Daniel Keystone</h3>
+    <h4>Designer</h4>
+    <p>
+      The simple and intuitive design makes it easy for me use. I highly
+      recommend Fetch to my peers.
+    </p>
+  </div>
+</div>
+
+
+<div>
+  <img src="/images/shirley.png" alt="person"/>
+  <div className={styles.myCarousel}>
+    <h3>Shirley Fultz</h3>
+    <h4>Designer</h4>
+    <p>
+      It's freeing to be able to catch up on customized news and not be
+      distracted by a social media element on the same site
+    </p>
+  </div>
+</div>
+
+<div>
+  <img src="/images/theo.png" alt="person"/>
+<div className={styles.myCarousel}>
+    <h3>Theo Sorel</h3>
+    <h4>Designer</h4>
+    <p>
+      I enjoy catching up with Fetch on my laptop, or on my phone when
+      I'm on the go!
+    </p>
+  </div>
+</div>
+</Carousel>
 
       </section>
 
