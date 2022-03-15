@@ -5,6 +5,7 @@ import About from './Pages/About.jsx'
 import Services from './Pages/Services';
 import Gallery from './Pages/Gallery';
 import Testimonials from './Pages/Testimonials';
+import Contact from './Pages/Contact';
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
 <Services/>
 <Gallery/>
 <Testimonials/>
+<Contact/>
 
 
 </main>
