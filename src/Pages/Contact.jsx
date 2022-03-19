@@ -21,30 +21,30 @@ marginTop:'0.5rem'
             <div className={styles.contactInfo}>
               <h3 className={styles.title}>Let's get in touch</h3>
               <p className={styles.text}>
-                I would love to hear from you. You can contact me anytime for any oppotunites or collaborations and I will respond to you ASAP.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid ipsam placeat modi illo. Necessitatibus, atque minus. In fugiat eius incidunt voluptates provident commodi.
               </p>
     
               <div className={styles.info}>
 
                 <div className={styles.information}>
-                  <p>Email:ttheko101@gmail.com</p>
+                  <p>Email: digitalagency@gmail.com</p>
                 </div>
                
                 <div className={styles.information}>
-                  <p>Phone:+27 84 833 1276</p>
+                  <p>Phone:+1 432 7896 345</p>
                 </div>
               </div>
     
               <div className={styles.socialMedia}>
-                <p className={styles.information}>Follow Me On Social Media:</p>
+                <p className={styles.information}>Follow Us On Social Media:</p>
                 <div className={styles.socialIcons}>
-                  <a href="https://github.com/chusyntax">
+                  <a href="https://github.com">
                     <i className="fab fa-github"></i>
                   </a>
-                  <a href="https://linkedin.com/in/thabotheko">
+                  <a href="https://linkedin.com">
                     <i className="fab fa-linkedin"></i>
                   </a>
-                  <a href="https://www.instagram.com/chusyntax/">
+                  <a href="https://www.instagram.com">
                     <i className="fab fa-instagram"></i>
                   </a>
                 </div>
@@ -56,7 +56,7 @@ marginTop:'0.5rem'
               <span className={`${styles.circle} ${styles.two}`}></span>
     
               <form   autocomplete="on">
-                <h3 className={styles.title}>Message Me</h3>
+                <h3 className={styles.title}>Message Us</h3>
                 <div className={styles.inputContainer}>
                   <input type="text" name="name" className={`${styles.input} required  ${styles.focus}`} placeholder="Name" />
                   
