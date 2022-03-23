@@ -6,6 +6,8 @@ import Services from './Pages/Services';
 import Gallery from './Pages/Gallery';
 import Testimonials from './Pages/Testimonials';
 import Contact from './Pages/Contact';
+import Footer from './Pages/Footer';
+
 
 function App() {
     return (
@@ -20,6 +22,7 @@ function App() {
 <Gallery/>
 <Testimonials/>
 <Contact/>
+<Footer/>
 
 
 </main>
