@@ -132,6 +132,10 @@ padding-left: 350px;
       margin: auto !important;
     }
 
+    .containerCarousel h1{
+      font-size: 3.5rem;
+    }
+
     .containerCarousel{
 
     padding:0px;
